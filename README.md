@@ -22,6 +22,9 @@ pub fn create_claim(
 }
 ```
 
+运行截图：
+![image](images/0001.png)
+
 ## 撤销存证
 
 代码片段：
@@ -41,6 +44,9 @@ pub fn revoke_claim(
     Ok(().into())
 }
 ```
+
+运行截图：
+![image](images/0002.png)
 
 ## 转移存证
 
@@ -67,3 +73,6 @@ pub fn transfer_claim(
     Ok(().into())
 }
 ```
+
+运行截图：
+![image](images/0003.png)
